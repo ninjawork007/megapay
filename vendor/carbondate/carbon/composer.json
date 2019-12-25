@@ -1,0 +1,45 @@
+{
+    "name": "carbondate/carbon",
+    "type": "library",
+    "description": "A simple API extension for DateTime.",
+    "keywords": [
+        "date",
+        "time",
+        "DateTime"
+    ],
+    "homepage": "https://carbondate.github.io",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/translation": "~2.6 || ~3.0 || ~4.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.0",
+        "phpunit/phpunit": "^4.8.36 || ^5.7.26 || ^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Carbon\\": "src/Carbon/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "replace": {
+        "nesbot/carbon": "*"
+    },
+    "scripts": {
+        "test": [
+            "@phpunit",
+            "@phpcs"
+        ],
+        "phpunit": "phpunit --verbose --coverage-clover=coverage.xml",
+        "phpcs": "php-cs-fixer fix -v --diff --dry-run",
+        "phpstan": "phpstan analyse --configuration phpstan.neon --level 3 src tests"
+    }
+}

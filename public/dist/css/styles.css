@@ -1,0 +1,424 @@
+.activeMethod {
+    background-color: green;
+}
+.box {
+    border-top: none;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+.box-width {
+    width: 700px !important;
+}
+.button-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.control-label.require:after {
+    content: "*";
+    color: #ff4d4d;
+}
+.choice h2 {
+    color: #043140;
+}
+.red_block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #c50e0e;
+}
+.flags {
+    margin-top: -11px !important;
+    margin-bottom: -8px !important;
+}
+.form-group .select2 {
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 100%!important;
+    margin-bottom: 0;
+    display: table;
+    table-layout: fixed;
+}
+.img {
+    height: 22px;
+    width: 22px;
+}
+.input-file-field {
+    padding: 0px;
+}
+.increase-hr-height {
+    position: relative;
+    bottom: 24px;
+}
+.increase-hr-height-request-payment {
+    position: relative;
+    bottom: 40px;
+}
+.total-deposit-space {
+    position: relative;
+    bottom: 35px;
+}
+.total-deposit-space-request-payment {
+    position: relative;
+    bottom: 52px;
+}
+.total-deposit-feesTotal-space {
+    position: relative;
+    bottom: 15px;
+}
+.total-deposit-feesTotal-space-request-payment {
+    position: relative;
+    bottom: 30px;
+}
+.menua {
+    list-style-type: none;
+}
+.my-error-class {
+    color: #FF0000;
+    /* red */
+}
+.my-valid-class {
+    color: #0AAD4B;
+    /* green */
+}
+.mt35 {
+    margin-top: 35px !important;
+}
+/*admin/profile/editProfile.blade.php*/
+
+.nav-tabs-custom>.nav-tabs>li.active:first-of-type>a {
+    color: #3C8DBC;
+}
+/*admin/user/edit.blade.php*/
+
+.nav-tabs.cus {
+    border-bottom: 0px !important;
+}
+.no-border-form {
+    border: 0;
+    box-shadow: none;
+    padding: 0px 0px;
+    width: 50%;
+}
+.paymentGateway {
+    cursor: pointer;
+}
+.error {
+    color: red;
+}
+.remove_img_preview {
+    position: relative;
+    top: -90px;
+    right: -145px;
+    background: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 0.9em;
+    padding: 0 0.3em 0;
+    text-align: center;
+    cursor: pointer;
+}
+.remove_img_preview:before {
+    content: "×";
+}
+/*June 03,2018*/
+
+.select2 {
+    width: 100%!important;
+}
+.shorten {
+    margin-left: 20px;
+}
+.skin-blue .main-header .navbar, .skin-blue .main-header .logo {
+    background-color: #4B5158;
+}
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: #6c7888;
+}
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a {
+    background-color: #E9EBEF;
+    border-left-color: #E9EBEF;
+    color: #323a45;
+}
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    background-color: #FFF;
+    margin: 0px;
+}
+.skin-blue .treeview-menu>li>a {
+    color: #323a45;
+}
+.skin-blue .sidebar a {
+    color: white;
+}
+.skin-blue .treeview-menu>li>.active>a {
+    color: red;
+}
+.skin-blue .treeview-menu>li.active>a {
+    background-color: #03a9f4;
+    border-left: 0 none !important;
+    border-radius: 50px;
+    color: #fff !important;
+    display: inline-block;
+    margin: 8px 0 8px 20px;
+    padding: 5px 15px;
+}
+.skin-blue .sidebar-menu .treeview-menu>li>a:hover {
+    color: #367FA9;
+}
+.skin-blue .sidebar-menu .treeview-menu>li>a {
+    color: #192327;
+}
+.skin-blue .main-header .navbar .nav>li>a:hover {
+    color: #FFF;
+    background-color: #AEB6BF;
+}
+.spinner {
+    display: none;
+}
+.task-bar {
+    width: 0px !important;
+}
+/* css for company  logo, favicon and currency logo delete */
+
+.thumb {
+    width: 70px;
+    height: 70px;
+    margin: 0.2em -0.7em 0 0;
+}
+/* ticket */
+
+.top-bar-title {
+    font-weight: bold;
+    padding-top: 9px;
+    /*color: #00acd6;*/
+    font-size: 16px;
+    margin-left: 5px;
+}
+/* admin/deposits/list */
+
+.padding-bottom {
+    padding-bottom: 9px;
+}
+/* css for flash message overlapping */
+
+.flash-container {
+    position: absolute;
+    right: 15px;
+    left: 245px;
+    z-index: 1001;
+    margin-top: 2px;
+}
+.alert-close {
+    float: right;
+    cursor: pointer;
+    font-size: 2em;
+    line-height: .7;
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: normal;
+    color: #cacccd
+}
+/* for fixing layout breakage - AdminLTE.css - .wrapper class modified */
+
+.wrapper_custom {
+    position: relative;
+}
+#deposit {
+    width: 15px;
+    height: 15px;
+    /*background: #429BCE;*/
+    background: #78BEE6;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+#withdrawal {
+    width: 15px;
+    height: 15px;
+    /*background: #F56954;*/
+    background: #FBB246;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+#transfer {
+    width: 15px;
+    height: 15px;
+    /*background: #2FB628;*/
+    background: #67FB4A;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+.scp {
+    font-weight: bold;
+    line-height: 15px;
+    padding-left: -5px;
+}
+.transactions-edit-fee {
+    font-weight: normal !important;
+}
+
+.progress-bar {
+    color: #151313 !important;
+}
+.progress {
+    background-color: #e7e4e4 !important;
+}
+
+.progress-label {
+    float: left;
+    margin-right: 1em;
+}
+.progress-bar-deposit {
+    /*background-color: #429BCE !important;*/
+    background-color: #78BEE6 !important;
+
+}
+.progress-bar-withdrawal {
+    /*background-color: #F56954 !important;*/
+    background-color: #FBB246 !important;
+}
+.progress-bar-transfer {
+    /*background-color: #2FB628 !important;*/
+    background-color: #67FB4A !important;
+}
+/*  test */
+
+/*for bootstrapValidator*/
+.form-group .has-error .help-block {
+    color: red;
+    font-weight: bold;
+}
+
+/*admin/setting/logo -- css*/
+    .setting-img-general-logo {
+        overflow: hidden;
+        max-width: 100%;
+    }
+    .img-wrap-general-logo {
+        width: 300px;
+        overflow: hidden;
+        margin: 5px;
+        background: rgba(74, 111, 197, 0.9) !important;
+        height: 100px;
+        max-width: 100%;
+    }
+    .img-wrap-general-logo > img {
+        max-width: 100%;
+        height: auto !important;
+        max-height: 100%;
+        width: auto !important;
+        object-fit: contain;
+    }
+
+    .remove_img_preview_site_logo {
+        position: relative;
+        top: -109px;
+        right: -309px;
+        background: black;
+        color: white;
+        border-radius: 50px;
+        font-size: 0.9em;
+        padding: 0 0.3em 0;
+        text-align: center;
+        cursor: pointer;
+    }
+    .remove_img_preview_site_logo:before {
+        content: "×";
+    }
+/*end of admin/setting/logo -- css*/
+
+/*Logo -- css*/
+    .setting-img{
+        overflow: hidden;
+        max-width: 100%;
+    }
+    .img-wrap {
+        width: 140px;
+        overflow: hidden;
+        margin: 5px;
+        height: 100px;
+        max-width: 100%;
+    }
+    .remove_img_preview {
+    position: relative;
+    top: -107px;
+    right: -148px;
+    background: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 0.9em;
+    padding: 0 0.3em 0;
+    text-align: center;
+    cursor: pointer;
+    }
+    .remove_img_preview:before {
+        content: "×";
+    }
+/*end of -logo -- css*/
+
+/*favicon - css*/
+    .img-wrap-favicon{
+    width: 38px;
+    height: 80px;
+    overflow: hidden;
+    margin:5px;
+    }
+
+    .remove_fav_preview {
+    position: relative;
+    top: -90px;
+    right: -145px;
+    background: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 0.9em;
+    padding: 0 0.3em 0;
+    text-align: center;
+    cursor: pointer;
+    }
+    .remove_fav_preview:before {
+        content: "×";
+    }
+/*end of -favicon -- css*/
+
+
+.remove_bank_logo_preview {
+    position: relative;
+    top: -30px;
+    right: -10px;
+    background: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 0.9em;
+    padding: 0 0.3em 0;
+    text-align: center;
+    cursor: pointer;
+}
+.remove_bank_logo_preview:before {
+    content: "×";
+}
+
+.remove_edit_bank_logo_preview {
+    position: relative;
+    top: -30px;
+    right: -10px;
+    background: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 0.9em;
+    padding: 0 0.3em 0;
+    text-align: center;
+    cursor: pointer;
+}
+.remove_edit_bank_logo_preview:before {
+    content: "×";
+}
+
+.thumb-bank-logo {
+    width: 75px;
+    height: 75px;
+    margin: 0.2em -0.7em 0 0;
+}

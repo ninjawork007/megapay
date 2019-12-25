@@ -1,0 +1,237 @@
+
+@media screen and (max-width: 1200px) {
+    .menu-list ul li {
+        font-size: 12px;
+        padding: 12px 5px 12px 5px;
+    }     
+
+}
+@media screen and (max-width: 992px) {
+    /*------padding--------*/
+    .padding-style1 {
+        padding: 70px 0;
+    }
+    /*------header--------*/
+    #menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: inline-block;
+        position: fixed;
+        right: 0px;
+        z-index: 10;
+        background: transparent;
+    }
+    .slicknav_btn {
+
+        background: #fff;
+    }
+    .slicknav_nav a {
+        background: #063241;
+        height: 47px;
+        color: #fff;
+        width: 200px;
+        padding-top: 12px;
+        text-align: center;
+        line-height: 20px;
+    }
+    .slicknav_nav li {
+        border-top: 1px solid rgba(0, 0, 0, 0);
+        border-bottom: 1px solid rgba(0, 0, 0, 0);
+    }
+    .slicknav_nav a:hover {
+        border-radius: 0px;
+        background: #46c3aa;
+        color: #fff;
+    }
+    .slicknav_nav,
+    .slicknav_nav ul {
+        list-style: none;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    .slicknav_nav .slicknav_row,
+    .slicknav_nav a {
+        margin: 0px;
+    }
+    .slicknav_menu .slicknav_icon-bar {
+        background-color: #000;
+    }
+
+    /*--------------contact----------------*/
+    .contact-detail {
+        padding: 16px 10px;
+    }
+    header {
+        height: 56px;
+    }
+    .logo img {
+        width: 80%;
+    }
+    .top-search {
+        margin-top: 10px;
+    }
+
+    .category .col-md-9,
+    .category .col-md-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+		.set-title
+		{
+		 font-size:13px;
+		 font-weight:700;
+		 color:#4e5c6e;
+		}		  
+		.set-describe img{
+			   width:30px;
+			   height:30px;
+			   border-radius:50%;
+			   border:1px solid #CCCCCC;
+			   margin-bottom:-5px;
+			   right:;
+			   left:-15px;
+			   position:relative;
+			   top:-8px;
+		}		  
+		.set-describe{
+		 color:#4e5c6e;
+		 font-size:11px;
+		}		  
+		 .set-border .row{
+			 margin-right:-15px;
+			  margin-left:0;
+		 } 
+		 
+
+}
+
+@media screen and (max-width: 767px) {
+
+    header {
+        height: 56px;
+    }
+    .logo img {
+        width: 40%;
+    }
+
+    .section-01 {
+       
+    }
+    .welcome-text h1 {
+        font-size: 18px;
+        display: none;
+    }
+    .contact-detail {
+        padding: 16px 10px;
+    }
+    .quick-link {
+        padding: 16px 10px;
+    }
+    .contact-form-area {
+        padding: 16px 10px;
+    }
+    .banner-text .feature-icon .fa {
+        font-size: 18px;
+    }
+    .banner-text .feature-icon h2 {
+        font-size: 18px;
+    }
+
+    .banner-text .feature-icon p {
+        font-size: 12px;
+        color: #ffffff;
+    }
+
+    .banner-text .feature-icon span {
+        height: 50px;
+        margin: 5px;
+        width: 50px;
+        line-height: 50px;
+    }
+
+    .banner-text .feature-icon div {
+        border: 1px solid #232f69;
+        padding: 4px;
+    }
+    .banner-text .col-md-4 {
+        width: 33%;
+    }
+    .overlay-text {
+        display: none;
+    }
+    .banner-text {
+        top: 140px;
+    }
+    .banner-text .feature-icon div {
+        margin-bottom: 0px;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: #ffffff;
+        background: #0b2854;
+        text-align: left;
+		padding:15px 15px;
+        border-bottom: 1px solid #0a2145;
+		 }
+    .navbar-dark .navbar-nav .nav-link:nth-last-of-type {
+        border-bottom: 1px solid #ffffff;
+    }
+    .welcome-area.image-bg {
+        height: 300px;
+    }
+    .navbar-nav {
+
+        width: 100%;
+    }
+ .set-border{
+ padding:15px 0 12px 0;
+ } 
+
+.buttonPadding{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+ 
+ .trans_details{
+    width: 40% !important;
+}
+	
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        height: 56px;
+    }
+    .welcome-area {
+        display: none;
+    }
+    .top-search {
+        width: 50%;
+        float: right;
+        margin-top: -30px;
+    }
+    .logo_area{
+        width: 60%;
+    }
+
+    .buttonPadding{
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .filter_panel{
+        width: 100%;
+        display: block;
+        margin: 5px 0px;
+    }
+
+.trans_details{
+    width: 40% !important;
+}
+
+.my-navbar{
+    z-index: 1000000;
+}
+
+}
