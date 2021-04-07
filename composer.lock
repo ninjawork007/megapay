@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "5440bac5258ea11b289d5fc85be3543b",
@@ -3079,24 +3079,24 @@
         },
         {
             "name": "paragonie/constant_time_encoding",
-            "version": "v2.2.2",
+            "version": "v2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/constant_time_encoding.git",
-                "reference": "eccf915f45f911bfb189d1d1638d940ec6ee6e33"
+                "reference": "f34c2b11eb9d2c9318e13540a1dbc2a3afbd939c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/constant_time_encoding/zipball/eccf915f45f911bfb189d1d1638d940ec6ee6e33",
-                "reference": "eccf915f45f911bfb189d1d1638d940ec6ee6e33",
+                "url": "https://api.github.com/repos/paragonie/constant_time_encoding/zipball/f34c2b11eb9d2c9318e13540a1dbc2a3afbd939c",
+                "reference": "f34c2b11eb9d2c9318e13540a1dbc2a3afbd939c",
                 "shasum": ""
             },
             "require": {
-                "php": "^7"
+                "php": "^7|^8"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6|^7",
-                "vimeo/psalm": "^1"
+                "phpunit/phpunit": "^6|^7|^8|^9",
+                "vimeo/psalm": "^1|^2|^3|^4"
             },
             "type": "library",
             "autoload": {
@@ -3137,7 +3137,12 @@
                 "hex2bin",
                 "rfc4648"
             ],
-            "time": "2018-03-10T19:47:49+00:00"
+            "support": {
+                "email": "info@paragonie.com",
+                "issues": "https://github.com/paragonie/constant_time_encoding/issues",
+                "source": "https://github.com/paragonie/constant_time_encoding"
+            },
+            "time": "2020-12-06T15:14:20+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -3182,6 +3187,11 @@
                 "pseudorandom",
                 "random"
             ],
+            "support": {
+                "email": "info@paragonie.com",
+                "issues": "https://github.com/paragonie/random_compat/issues",
+                "source": "https://github.com/paragonie/random_compat"
+            },
             "time": "2018-07-02T15:55:56+00:00"
         },
         {
@@ -3714,16 +3724,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.12",
+            "version": "2.0.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "8814dc7841db159daed0b32c2b08fb7e03c6afe7"
+                "reference": "233a920cb38636a43b18d428f9a8db1f0a1a08f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/8814dc7841db159daed0b32c2b08fb7e03c6afe7",
-                "reference": "8814dc7841db159daed0b32c2b08fb7e03c6afe7",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/233a920cb38636a43b18d428f9a8db1f0a1a08f4",
+                "reference": "233a920cb38636a43b18d428f9a8db1f0a1a08f4",
                 "shasum": ""
             },
             "require": {
@@ -3731,8 +3741,7 @@
             },
             "require-dev": {
                 "phing/phing": "~2.7",
-                "phpunit/phpunit": "^4.8.35|^5.7|^6.0",
-                "sami/sami": "~2.0",
+                "phpunit/phpunit": "^4.8.35|^5.7|^6.0|^9.4",
                 "squizlabs/php_codesniffer": "~2.0"
             },
             "suggest": {
@@ -3802,7 +3811,25 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2018-11-04T05:45:48+00:00"
+            "support": {
+                "issues": "https://github.com/phpseclib/phpseclib/issues",
+                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.31"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/terrafrost",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/phpseclib",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpseclib/phpseclib",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-04-06T13:56:45+00:00"
         },
         {
             "name": "pragmarx/google2fa",
@@ -5863,40 +5890,6 @@
     ],
     "packages-dev": [
         {
-            "name": "bestmomo/laravel5-3-installer",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bestmomo/laravel5-3-installer.git",
-                "reference": "efd25a8e170a143380aae17f156e0e30eaa3780a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bestmomo/laravel5-3-installer/zipball/efd25a8e170a143380aae17f156e0e30eaa3780a",
-                "reference": "efd25a8e170a143380aae17f156e0e30eaa3780a",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Bestmomo\\Installer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Bestmomo",
-                    "email": "grandheretique@free.fr"
-                }
-            ],
-            "description": "Helper for Laravel 5.3 application installation",
-            "homepage": "http://github.com/bestmomo/laravel5-3-installer",
-            "time": "2016-09-13T12:07:51+00:00"
-        },
-        {
             "name": "doctrine/instantiator",
             "version": "1.1.0",
             "source": {
@@ -7482,60 +7475,6 @@
             "time": "2017-04-07T12:08:54+00:00"
         },
         {
-            "name": "unisharp/laravel-ckeditor",
-            "version": "4.7.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/UniSharp/laravel-ckeditor.git",
-                "reference": "5c75f3f9128ec8567955913074795deee5869c5c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/UniSharp/laravel-ckeditor/zipball/5c75f3f9128ec8567955913074795deee5869c5c",
-                "reference": "5c75f3f9128ec8567955913074795deee5869c5c",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "~5.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Unisharp\\Ckeditor\\": "./"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+",
-                "LGPL-2.1+",
-                "MPL-1.1+"
-            ],
-            "authors": [
-                {
-                    "name": "CKSource",
-                    "homepage": "http://cksource.com"
-                },
-                {
-                    "name": "UniSharp Ltd. (Composer Package Maintainer)",
-                    "homepage": "http://www.unisharp.com"
-                }
-            ],
-            "description": "JavaScript WYSIWYG web text editor (for laravel).",
-            "homepage": "http://ckeditor.com",
-            "keywords": [
-                "CKEditor",
-                "editor",
-                "fckeditor",
-                "html",
-                "javascript",
-                "laravel",
-                "richtext",
-                "text",
-                "wysiwyg"
-            ],
-            "time": "2017-11-01T04:33:40+00:00"
-        },
-        {
             "name": "webmozart/assert",
             "version": "1.3.0",
             "source": {
@@ -7594,5 +7533,6 @@
     "platform": {
         "php": ">=7.1.3"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
